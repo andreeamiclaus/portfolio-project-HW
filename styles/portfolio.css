@@ -8,6 +8,7 @@
 body {
   font-family: var(--default-font-family);
   background-color: #e0d2be;
+  box-sizing: border-box;
 }
 
 h1,
@@ -124,9 +125,13 @@ p {
 .logo {
   max-height: 40px;
 }
-
+#nav-about,
+#nav-contact {
+  background-color: var(--secondary-color);
+}
 nav {
-  padding: 20px 0;
+  padding: 30px 0;
+  font-size: 20px;
 }
 
 nav ul {
@@ -146,7 +151,9 @@ nav a {
   color: #272142;
   transition: all 100ms ease-in-out;
 }
-
+.self-picture {
+  margin-top: 120px;
+}
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
