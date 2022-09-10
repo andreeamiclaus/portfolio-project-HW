@@ -30,7 +30,9 @@
       content=" Andreea is a front-end developer based in Europe, mainly in Linz, Austria"
     />
 
-    <link rel="stylesheet" href="/styles/portfolio.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <script src="home.js"></script>
     <title>Front-end developer - Andreea Miclaus</title>
   </head>
   <body>
@@ -62,12 +64,14 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img
-            src="images/responsive-layout.jpeg"
-            class="img-fluid"
-            alt="Responsive Layout"
-            height="600"
-          />
+          <div class="hover-div">
+            <img
+              src="images/responsive-layout.jpeg"
+              class="img-fluid"
+              alt="Responsive Layout"
+              height="600"
+            />
+          </div>
         </div>
         <div class="col">
           <div class="project-desciption">
@@ -78,10 +82,7 @@
               role in order to achieve this, as well as grid and flexbox
               properties.
             </p>
-            <a
-              href="https://ephemeral-lily-e0bc3d.netlify.app/"
-              class="btn btn-branding-outline"
-            >
+            <a onclick="openWindow1()" class="btn btn-branding-outline">
               Learn more
             </a>
           </div>
@@ -97,26 +98,25 @@
               managed to create a fully functional app combining all of my
               skills that I have gained until now.
             </p>
-            <a
-              href="https://laughing-varahamihira-4175e3.netlify.app/"
-              class="btn btn-branding-outline"
-            >
+            <a onclick="openWindow2()" class="btn btn-branding-outline">
               Learn more
             </a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img
-            src="images/weather_app.jpeg"
-            class="img-fluid"
-            alt=" Weather project preview"
-          />
+          <div class="hover-div">
+            <img
+              src="images/weather_app.jpeg"
+              class="img-fluid"
+              alt=" Weather project preview"
+            />
+          </div>
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <div class="col d-none d-lg-block">
+          <div class="hover-div">
             <img
               src="images/music-card.jpeg"
               class="img-fluid"
@@ -132,10 +132,7 @@
               CSS. I used my knowledge of these to create one of my first
               projects which was a challenge from Frontend Mentor.
             </p>
-            <a
-              href="https://effulgent-bublanina-b4b0a2.netlify.app/"
-              class="btn btn-branding-outline"
-            >
+            <a onclick="openWindow3()" class="btn btn-branding-outline">
               Learn more
             </a>
           </div>

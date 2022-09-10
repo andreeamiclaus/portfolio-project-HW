@@ -41,61 +41,6 @@ p {
   line-height: 30px;
 }
 
-.hero {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 80px 20px;
-}
-
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-}
-
-.hero h2 {
-  font-family: var(--heading-font-family);
-  font-weight: normal;
-  line-height: 1.5;
-  font-size: 24px;
-}
-
-.content-container {
-  padding: 60px 20px;
-}
-
-.content h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.content h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
-}
-
-.content h3 {
-  font-size: 24px;
-  line-height: 1.5;
-
-  font-family: var(--default-font-family);
-}
-
-.content p {
-  font-size: 14px;
-}
-
-.content {
-  margin: 30px;
-}
-.content a {
-  color: rgb(90, 117, 90);
-}
-.content a :hover {
-  color: rgb(80, 102, 80);
-  cursor: pointer;
-}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -118,20 +63,13 @@ p {
   color: #969e85;
 }
 
-.project-desciption {
-  padding: 120px 60px;
-}
-
-.logo {
-  max-height: 40px;
-}
 #nav-about,
 #nav-contact {
   background-color: var(--secondary-color);
 }
 nav {
   padding: 30px 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 nav ul {
@@ -151,22 +89,28 @@ nav a {
   color: #272142;
   transition: all 100ms ease-in-out;
 }
-.self-picture {
-  margin-top: 120px;
-}
+
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: white;
 }
-.skills {
-  padding-top: 100px;
+
+.hover-div {
   text-align: center;
-  padding-bottom: 70px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
-.certifications {
-  padding-top: 100px;
-  text-align: center;
+
+.hover-div:hover {
+  -webkit-transform: translateY(-20px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
+  cursor: pointer;
+  border-radius: 5px;
 }
+
 footer {
   margin: 60px 0;
 }
@@ -225,7 +169,8 @@ footer .social-links a:hover {
     padding: 0;
   }
 
-  .project-desciption {
+  .project-desciption,
+  .about-description {
     padding: 0;
     text-align: center;
   }
