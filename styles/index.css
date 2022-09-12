@@ -95,22 +95,6 @@ nav li.active a {
   color: white;
 }
 
-.hover-div {
-  text-align: center;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.hover-div:hover {
-  -webkit-transform: translateY(-20px);
-  -ms-transform: translateY(-10px);
-  transform: translateY(-10px);
-  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
-  cursor: pointer;
-  border-radius: 5px;
-}
-
 footer {
   margin: 60px 0;
 }
